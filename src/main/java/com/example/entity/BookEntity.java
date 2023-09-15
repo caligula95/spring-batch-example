@@ -17,4 +17,6 @@ public class BookEntity {
     private String author;
 
     private Integer yearOfPublishing;
+
+    private String someField;
 }
