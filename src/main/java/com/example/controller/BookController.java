@@ -21,6 +21,7 @@ public class BookController {
     @GetMapping
     public List<BookEntity> getAll() {
         log.info("Handling find all");
+        log.info("Hi there");
         return bookRepository.findAll();
     }
 }
